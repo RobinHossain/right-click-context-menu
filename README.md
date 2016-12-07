@@ -1,4 +1,4 @@
-# Right Click Context Menu with Javascript
+# Right Click Context Menu In Javascript
 Get drop down context menu when right click
 
 This is simple example for thumbnail image right click  *with clicked item and menu item handler.
