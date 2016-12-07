@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Thumbnail Gallery - Start Bootstrap Template</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- App Style -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Logo</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="#">Menu One</a>
+                    </li>
+                    <li>
+                        <a href="#">Menu Two</a>
+                    </li>
+                    <li>
+                        <a href="#">Menu Three</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-lg-12">
+                <h1 class="page-header text-center">Thumbnail Gallery</h1>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb" data-id="Thumbnail 1">
+                <a class="thumbnail" >
+                    <img class="img-responsive" src="image/1.jpg" alt="">
+                </a>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb" data-id="Thumbnail 2">
+                <a class="thumbnail" >
+                    <img class="img-responsive" src="image/2.jpg" alt="">
+                </a>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb" data-id="Thumbnail 3">
+                <a class="thumbnail" >
+                    <img class="img-responsive" src="image/3.jpg" alt="">
+                </a>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb" data-id="Thumbnail 4">
+                <a class="thumbnail" >
+                    <img class="img-responsive" src="image/4.jpg" alt="">
+                </a>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb" data-id="Thumbnail 5">
+                <a class="thumbnail" >
+                    <img class="img-responsive" src="image/5.jpg" alt="">
+                </a>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb" data-id="Thumbnail 6">
+                <a class="thumbnail" >
+                    <img class="img-responsive" src="image/6.jpg" alt="">
+                </a>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb" data-id="Thumbnail 7">
+                <a class="thumbnail" >
+                    <img class="img-responsive" src="image/7.jpg" alt="">
+                </a>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb" data-id="Thumbnail 8">
+                <a class="thumbnail" >
+                    <img class="img-responsive" src="image/8.jpg" alt="">
+                </a>
+            </div>
+
+        </div>
+
+        <hr>
+
+
+    </div>
+    <!-- /.container -->
+
+    <!-- / The Context Menu -->
+    <nav id="context-menu" class="context-menu">
+        <ul class="context-menu__items">
+            <li class="context-menu__item">
+                <a href="#" class="context-menu__link" data-action="Delete This Photo"><i class="fa fa-times"></i> Delete This Photo</a>
+            </li>
+            <li class="context-menu__item">
+                <a href="#" class="context-menu__link" data-action="Photo Option 2"><i class="fa fa-times"></i> Photo Option 2</a>
+            </li>
+            <li class="context-menu__item">
+                <a href="#" class="context-menu__link" data-action="Photo Option 3"><i class="fa fa-times"></i> Photo Option 3</a>
+            </li>
+            <li class="context-menu__item">
+                <a href="#" class="context-menu__link" data-action="Photo Option 4"><i class="fa fa-times"></i> Photo Option 4</a>
+            </li>
+            <li class="context-menu__item">
+                <a href="#" class="context-menu__link" data-action="Photo Option 5"><i class="fa fa-times"></i> Photo Option 5</a>
+            </li>
+            <li class="context-menu__item">
+                <a href="#" class="context-menu__link"><i class="fa fa-arrows"></i> Add Photo to</a>
+                <ul>
+                    <li><a href="#!" class="context-menu__link" data-action="album-one">Album One</a></li>
+                    <li><a href="#!" class="context-menu__link" data-action="album-two">Album Two</a></li>
+                    <li><a href="#!" class="context-menu__link" data-action="album-three">Album Three</a></li>
+                    <li><a href="#!" class="context-menu__link" data-action="album-four">Album Four</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- End # Context Menu -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Right Click Context Menu Script -->
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
