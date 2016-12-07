@@ -131,8 +131,8 @@
     menuWidth = menu.offsetWidth + 4;
     menuHeight = menu.offsetHeight + 4;
 
-    windowWidth = $(window).width();
-    windowHeight = $(window).height();
+    windowWidth = window.innerWidth;
+    windowHeight = window.innerHeight;
 
     if ( (windowWidth - clickCoordsX) < menuWidth ) {
       menu.style.left = (windowWidth - menuWidth)-0 + "px";
@@ -156,7 +156,7 @@
     var moveToAlbumSelectedId = link.getAttribute("data-action");
     if(moveToAlbumSelectedId == 'remove'){
       console.log('You Clicked the remove button')
-    }else if(moveToAlbumSelectedId.length > 7){
+    }else if(moveToAlbumSelectedId && moveToAlbumSelectedId.length > 7){
       console.log('Clicked Album Name: '+moveToAlbumSelectedId);
     }
     toggleMenuOff();
